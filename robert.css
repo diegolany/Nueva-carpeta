@@ -1,0 +1,46 @@
+body {
+    background-color: #D8D8D8;
+    
+  }
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  body {
+    margin: 113px; /* 3 cm x 37.8 px/cm = aproximadamente 113 px */
+  }
+  .espacios {
+    height: 1em; /* Establece la altura de la división en 4 líneas en blanco */
+  }
+  
+  .izquierda {
+    text-align: left; /* Establece el texto a la izquierda */
+    font-size: 24px;
+  }
+  .foto {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 1em; /* Agrega un espacio de 1 em arriba de la imagen */
+  }
+  
+  .foto img {
+    width: 300px; /* Establece el ancho de la imagen en 188 píxeles */
+    height: 350px; /* Establece la altura de la imagen en 188 píxeles */
+    border: 5px solid black; /* Agrega un borde negro de 1 píxel a la imagen */
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    
+  }
+  button:hover {
+    background-color: yellow;
+  }
+  
+  
